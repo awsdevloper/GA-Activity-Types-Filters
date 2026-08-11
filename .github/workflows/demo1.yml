@@ -11,6 +11,10 @@ on:
       - main
       - 'dev-*'
       - 'test/**'
+    paths:
+      - '.github/workflows/**'
+    #paths-ignore:
+    #  - '.github/workflows/**'
     #branches-ignore:
     #  - feature
     #  - test
