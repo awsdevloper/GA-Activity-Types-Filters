@@ -5,7 +5,7 @@ import './HelpBox.css';
 function HelpBox({ title, text }) {
   return (
     <article className="help-box">
-      <h9>{title}</h9>
+      <h12>{title}</h12>
       <p>{text}</p>
     </article>
   );
